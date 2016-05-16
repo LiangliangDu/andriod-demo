@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shanlin.creadit.ui.fragment.MineFragment">
+
+    <include layout="@layout/layout_title" />
+
+    <View style="@style/Style_Title_Line_View" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mine_iv_photo"
+        android:padding="@dimen/mine_header_padding">
+
+        <ImageView
+            android:id="@+id/mine_iv_photo"
+            android:layout_width="@dimen/mine_iv_photo"
+            android:layout_height="@dimen/mine_iv_photo"
+            android:src="@mipmap/icon_mine_header" />
+
+        <TextView
+            style="@style/Style_Mine_Header_Text"
+            android:layout_marginTop="@dimen/mine_header_marginTop"
+            android:text="@string/mine_tv_nickname" />
+
+        <TextView
+            style="@style/Style_Mine_Header_Text"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/mine_header_marginBottom"
+            android:text="@string/mine_tv_phone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_next" />
+    </RelativeLayout>
+
+    <View style="@style/Style_Line_View" />
+
+    <LinearLayout
+        android:id="@+id/mine_linear_lend"
+        android:paddingLeft="@dimen/comment_title_paddingleftright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/mine_iv_icon"
+            android:layout_height="@dimen/mine_iv_icon"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            style="@style/Style_Mine_Item_Text"
+            android:text="@string/mine_tv_lendmoney" />
+
+        <ImageView style="@style/mine_next_icon" />
+    </LinearLayout>
+
+    <View style="@style/Style_Line_View" />
+
+    <LinearLayout
+        android:id="@+id/mine_linear_count"
+        android:paddingLeft="@dimen/comment_title_paddingleftright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/mine_iv_icon"
+            android:layout_height="@dimen/mine_iv_icon"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            style="@style/Style_Mine_Item_Text"
+            android:text="@string/mine_tv_count" />
+
+        <ImageView style="@style/mine_next_icon" />
+    </LinearLayout>
+
+    <View style="@style/Style_Line_View" />
+
+    <LinearLayout
+        android:paddingLeft="@dimen/comment_title_paddingleftright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/mine_iv_icon"
+            android:layout_height="@dimen/mine_iv_icon"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            style="@style/Style_Mine_Item_Text"
+            android:text="@string/mine_tv_setting" />
+
+        <ImageView style="@style/mine_next_icon" />
+    </LinearLayout>
+
+    <View style="@style/Style_Line_View" />
+
+    <LinearLayout
+        android:paddingLeft="@dimen/comment_title_paddingleftright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/mine_iv_icon"
+            android:layout_height="@dimen/mine_iv_icon"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            style="@style/Style_Mine_Item_Text"
+            android:text="@string/mine_tv_recommend" />
+
+        <ImageView style="@style/mine_next_icon" />
+    </LinearLayout>
+
+    <View style="@style/Style_Line_View" />
+
+    <LinearLayout
+        android:paddingLeft="@dimen/comment_title_paddingleftright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/mine_iv_icon"
+            android:layout_height="@dimen/mine_iv_icon"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            style="@style/Style_Mine_Item_Text"
+            android:text="@string/mine_tv_suggtion" />
+
+        <ImageView style="@style/mine_next_icon" />
+    </LinearLayout>
+
+    <View style="@style/Style_Line_View" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <com.shanlin.creadit.views.MainTabRadioButton
+        android:id="@+id/main_rab_homepage"
+        style="@style/StyleTabRadioGroup"
+        android:text="@string/main_tab_homepage"
+        test:drawPicSize="@dimen/main_tab_size"
+        test:drawableTop="@mipmap/ic_launcher" />
+
+    <com.shanlin.creadit.views.MainTabRadioButton
+        android:id="@+id/main_rab_strategy"
+        style="@style/StyleTabRadioGroup"
+        android:text="@string/main_rab_strategy"
+        test:drawPicSize="@dimen/main_tab_size"
+        test:drawableTop="@mipmap/ic_launcher" />
+
+    <com.shanlin.creadit.views.MainTabRadioButton
+        android:id="@+id/main_rab_mine"
+        style="@style/StyleTabRadioGroup"
+        android:text="@string/main_rab_mine"
+        test:drawPicSize="@dimen/main_tab_size"
+        test:drawableTop="@mipmap/ic_launcher" />
+
+    <com.shanlin.creadit.views.MainTabRadioButton
+        android:id="@+id/rb_tab_setting"
+        style="@style/StyleTabRadioGroup"
+        android:text="@string/main_rab_setting"
+        test:drawPicSize="@dimen/main_tab_size"
+        test:drawableTop="@mipmap/ic_launcher" />
+</RadioGroup>

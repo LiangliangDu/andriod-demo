@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/comment_title_height"
+    android:paddingLeft="@dimen/comment_title_paddingleftright"
+    android:paddingRight="@dimen/comment_title_paddingleftright">
+
+    <ImageView
+        android:id="@+id/common_iv_leftback"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/icon_left_back_black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="标题稍后删除"
+        android:textSize="@dimen/comment_title_textsize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/comment_title_edit"
+        android:textSize="@dimen/comment_title_textsize" />
+</RelativeLayout>

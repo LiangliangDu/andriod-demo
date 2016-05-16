@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+     <!--主界面-->
+    <dimen name="main_tab_size">50dp</dimen>
+    <dimen name="main_tab_top">16dp</dimen>
+    <!--我的页面-->
+    <dimen name="mine_iv_photo">80dp</dimen>
+    <dimen name="mine_header_marginTop">10dp</dimen>
+    <dimen name="mine_header_marginBottom">10dp</dimen>
+    <dimen name="mine_iv_icon">40dp</dimen>
+    <dimen name="mine_item_marginleft">10dp</dimen>
+    <dimen name="mine_header_marginleft">10dp</dimen>
+    <dimen name="mine_header_padding">8dp</dimen>
+     <!--标题-->
+    <dimen name="comment_title_height">48dp</dimen>
+    <dimen name="comment_title_paddingleftright">10dp</dimen>
+    <dimen name="comment_title_textsize">18sp</dimen>
+     <!--个人信息页面-->
+    <dimen name="personal_smalltitle_textsize">16sp</dimen>
+    <dimen name="personal_item_height">45dp</dimen>
+    <dimen name="comment_text_size">14sp</dimen>
+</resources>

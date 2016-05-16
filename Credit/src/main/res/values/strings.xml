@@ -1,0 +1,38 @@
+<resources>
+    <!--异常提示-->
+    <string name="exception_no_authority">请先登录</string>
+    <string name="exception_json_error">服务器异常，请稍后再试</string>
+    <string name="exception_netword_error">网络异常，请检查网络后再试</string>
+    <string name="exception_timer_out">连接超时</string>
+    <string name="exception_connect">网络不给力</string>
+
+    <string name="app_name">Credit</string>
+    <string name="main_tab_homepage">首页</string>
+    <string name="main_rab_strategy">攻略</string>
+    <string name="main_rab_mine">我的</string>
+    <string name="main_rab_setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mine_tv_nickname">昵称</string>
+    <string name="mine_tv_phone">账号</string>
+    <string name="mine_tv_lendmoney">我的借款</string>
+    <string name="mine_tv_count">我的账户</string>
+    <string name="mine_tv_setting">安全设置</string>
+    <string name="mine_tv_recommend">推荐给好友</string>
+    <string name="mine_tv_suggtion">意见反馈</string>
+
+    <string name="comment_title_edit">编辑</string>
+
+    <string name="personal_tv_nickname">昵称</string>
+    <string name="personal_tv_name">真实姓名</string>
+    <string name="personal_tv_identity">身份证号</string>
+    <string name="personal_tv_phone">手机号码</string>
+    <string name="personal_tv_email">邮箱地址</string>
+    <string name="personal_tv_sex">性别</string>
+    <string name="personal_tv_education">最高学历</string>
+    <string name="personal_tv_marital">婚姻状况</string>
+    <string name="personal_tv_address">居住地址</string>
+    <string name="personal_work_message">职业信息</string>
+    <string name="personal_person_message">个人信息</string>
+</resources>
